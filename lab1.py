@@ -2,5 +2,5 @@ import requests
 
 #print requests.__version__
 
-response = requests.post('http://ccid-eddieantonio.rhcloud.com/olexson')
-print response.status_code
+response = requests.get('https://github.com/LeahGabrielle/lab1/raw/master/lab1.py')
+print (response.text)
